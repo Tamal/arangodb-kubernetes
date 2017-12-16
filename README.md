@@ -4,6 +4,8 @@
 
 There is now a new file `clusterv2.yaml`, that allows you to quickly set-up an ArangoDB cluster on Kubernetes.  This script should work with Kubernetes 1.5 and above.  If you can, I'd recommend using this method to get your cluster up and running.
 
+`clusterv3.yaml` allows you to set-up ArangoDB clsuter with root password and jwt secret. This will protect ArangoDB Web Interface available publicly.
+
 ## Old Method
 
 To give it a try, just run:
